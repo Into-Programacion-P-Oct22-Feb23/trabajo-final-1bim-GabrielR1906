@@ -28,7 +28,7 @@ public class Problema01 {
          String tipo2 = "obtusàngulo";
          String tipo3 = "acutángulo";
          
-         System.out.print("Ingrese el valor del ángulo 1:");
+         System.out.println("Ingrese el valor del ángulo 1:");
          angulo1 = entrada.nextDouble();
          
          System.out.println("Ingrese el valor del ángulo 2:");
@@ -39,44 +39,45 @@ public class Problema01 {
          
          
          if (angulo1 == 90) {
-             System.out.printf("Los datos ingresados pertenencen a un "
-                     + "triàngulo: %s", tipo1);
+             System.out.printf("Los datos ingresados pertenecen a un "
+                     + "triàngulo: %s\n", tipo1);
          } else {
              if (angulo2 == 90) {
                  System.out.printf("Los datos ingresados pertenecen a un "
-                         + "triàngulo: %s", tipo1);
+                         + "triàngulo: %s\n", tipo1);
              } else {
                  if (angulo3 == 90) {
                      System.out.printf("Los datos ingresados pertenecen a un"
-                             + "triàngulo: %s", tipo1);
+                             + "triàngulo: %s\n", tipo1);
                  }else {
                      if (angulo1 > 90 && angulo1 <180) {
                          System.out.printf("Los datos ingresados pertenecen "
-                                 + "a un triàngulo: %s", tipo2);
+                                 + "a un triàngulo: %s\n", tipo2);
                      } else {
                          if (angulo2 > 90 && angulo2 <180) {
                              System.out.printf("Los datos ingresados pertenecen "
-                                     + "a un triàngulo: %s", tipo2);
+                                     + "a un triàngulo: %s\n", tipo2);
                          } else {
                              if (angulo3 > 90 && angulo3 <180) {
                                  System.out.printf("Los datos ingresados "
-                                         + "pertenecen a un triàngulo: %s"
+                                         + "pertenecen a un triàngulo: %s\n"
                                          + "", tipo2);
                              } else {
                                  if (angulo1 < 90) {
                                      System.out.printf("Los datos ingresados "
                                              + "pertenecen a un triàngulo:"
-                                             + " %s", tipo3 );
+                                             + " %s\n", tipo3 );
                                  } else {
                                      if (angulo2 < 90) {
                                          System.out.printf("Los datos ingresados"
-                                                 + "pertenecen a un triàngulo:"
+                                                 + "pertenecen a un triàngulo:\n"
                                                  + " %s", tipo3);
                                      } else {
                                          if (angulo3 < 90) {
                                              System.out.printf("Los datos "
                                                      + "ingresados pertenecen"
-                                                     + "a un triàngulo: %s", tipo3);
+                                                     + "a un triàngulo: %s\n", 
+                                                     tipo3);
                                          }
                                      }
                                  }
